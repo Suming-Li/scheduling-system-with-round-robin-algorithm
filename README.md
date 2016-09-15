@@ -1,5 +1,4 @@
 # scheduling-system-with-round-robin-algorithm
-In Java
 
 – Developed a scheduling system in Java to allocate multiple tasks arriving asynchronously to a
 ready/waiting queue and monitor arriving and leaving tasks using multithreading.
