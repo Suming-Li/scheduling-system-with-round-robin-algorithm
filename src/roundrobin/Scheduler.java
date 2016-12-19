@@ -86,8 +86,12 @@ public class Scheduler {
 		}
 	}
 	
-	public void removeTask(Task t) {
-		runQueue.poll();
+	public void addTask(Task t) {
+		if (runQueue.size() >= 2) {
+			jobQueue.offer(t);
+		} else {
+			runQueue.offer(t);
+		}
 	}
 	
 }

@@ -10,6 +10,8 @@ public class Main {
 		new Timer();
 		
 		new ReadKeyboard();
+
+		new ReadKeyboard();
 		
 	}
 }
